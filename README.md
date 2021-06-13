@@ -6,4 +6,4 @@ A console-based numerical calculus solver that can approximate limits, integrals
 
 (along with storing calculation history)
 
-Made for the ICS4U Culminating using Java and object-oriented concepts.
+Made as a final project for ICS4U using Java and object-oriented concepts.
