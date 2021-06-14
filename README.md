@@ -1,6 +1,6 @@
 # nCalc
 A console-based numerical calculus solver that can approximate limits, integrals, and derivatives using methods like</br>
-- Limit-case analysis
+- Limit case-analysis
 - Central difference quotients
 - 3/8 Simpson's Rule
 
