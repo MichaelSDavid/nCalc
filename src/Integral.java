@@ -21,7 +21,7 @@ public class Integral {
         double intervalSize = (Double.parseDouble(limHigh) - Double.parseDouble(limLow))
                 / 9.75;
 
-        // Collection function evaluation at each point
+        // Collect function evaluation at each point
         ArrayList<Double> func = new ArrayList<>();
         for (int i = 1; i < 10; i++) {
             func.add(new Expression(expr.replaceAll("x", "("
