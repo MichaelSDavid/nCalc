@@ -7,7 +7,7 @@ class Expression {
 
     @SuppressWarnings("RegExpUnexpectedAnchor")
     public Expression(String str) {
-        // Replace all constants with their numerical values (including a correct for sec(x))
+        // Replace all constants with their numerical values (including a correction for sec(x))
         str = str.toLowerCase().contains("pi") ? str.replaceAll("pi", "(3.141592653589793)") : str;
         str = str.toLowerCase().contains("e") ? str.replaceAll("e", "(2.718281828459045)") : str;
         str = str.toLowerCase().contains("s(2.718281828459045)c") ? str.replaceAll("s\\(2\\.718281828459045\\)c", "sec") : str;
